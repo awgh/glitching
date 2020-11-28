@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\fpga\glitchcraft\glitchcraft.ncd
+OUTFILE=D:\fpga\glitchcraft\glitchcraft.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=D:\fpga\glitchcraft
+LICENSE=WebPack
+USER_INFO=210897228_0_0_948

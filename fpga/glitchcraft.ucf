@@ -1,0 +1,18 @@
+
+# Clock Magic
+NET "t_clk" 				CLOCK_DEDICATED_ROUTE = FALSE;
+
+# Arduino-facing pins
+NET "t_clk" 				LOC = "N17";   #GPIO_HDR0, Pin 1
+NET "t_data" 				LOC = "F15";   #GPIO_HDR4, Pin 2
+NET "go" 					LOC = "M18";   #GPIO_HDR1, Pin 3
+NET "armed"             LOC = "B4";   	#GPIO_HDR5, Pin 4
+NET "enable"			 	LOC = "A3";   	#GPIO_HDR2, Pin 5
+#LOC = "F13";   #GPIO_HDR6, Pin 6
+# Target Device-facing pins
+NET "glitch"			 	LOC = "L15";   #GPIO_HDR3, Pin 7
+NET "targetreset"		 	LOC = "P12";   #GPIO_HDR7, Pin 8
+# On-board indicators
+NET "done" 					LOC = "E13";	#GPIO_LED_0
+NET "led2" 					LOC = "C4";		#GPIO_LED_2
+NET "led3" 					LOC = "A4";		#GPIO_LED_3
